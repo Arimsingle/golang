@@ -40,5 +40,5 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run Unit Tests
         run: |
-            cd goland/greetings
+            cd ./goland/greetings
             go test
