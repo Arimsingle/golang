@@ -37,5 +37,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Run a one-line script
-        run: echo Hello, world!
+      - name: Run Unit Tests
+        run: |
+            cd goland/greetings
+            go test
